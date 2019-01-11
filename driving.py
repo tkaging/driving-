@@ -6,8 +6,10 @@ if c == '台灣':
 		print('你可以考駕照')
 	else:
 		print('你不能考駕照')
-if c == '美國':
+elif c == '美國':
 	if a >= 16:
 		print('你可以考駕照')
 	else:
 		print('你不能考駕照')
+else:
+	print('您只能輸入美國或台灣')
